@@ -1,0 +1,235 @@
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 70px;
+}
+i {
+  margin-right: 5%;
+}
+p {
+  font-size: 1.5rem;
+  color: grey;
+  text-align: center;
+}
+/* TITLE */
+#title {
+  background-color: #ff4c68;
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 70px;
+}
+
+.title {
+  padding: 3% 7%;
+}
+/* NAVBAR */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-nav {
+  font-size: 1.5rem;
+}
+.navbar {
+  margin-bottom: 60px;
+  padding-left: 0;
+}
+.head {
+  margin-left: 5%;
+}
+.nav-item {
+  margin-right: 40px;
+}
+
+.dog-img {
+  transform: rotate(25deg);
+  margin-left: 90px;
+  position: absolute;
+  height: 150%;
+}
+.dog1-img {
+  margin-top: 30px;
+  position: relative;
+  float: left;
+  height: 7%;
+  width: 7%;
+  margin-left: 80px;
+}
+
+@media (max-width: 1000px) {
+  .dog-img {
+    margin-top: 50px;
+    position: static;
+    transform: rotate(0deg);
+    height: 80%;
+    width: 60%;
+  }
+  .col-lg-6 {
+    text-align: center;
+  }
+  .dog1-img {
+    height: 13%;
+    width: 15%;
+  }
+}
+/* FEATURTES */
+#features {
+  background-color: white;
+  padding-top: 60px;
+padding-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+#features h3 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+}
+#features p {
+  font-size: 1.5rem;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: grey;
+  text-align: center;
+}
+.fa-heart {
+  color: pink;
+  height: 100px;
+  margin-left: 200px;
+}
+#features img {
+  margin-left: 38%;
+  height: 100px;
+  width: 100px;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  font-weight: bolder;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
+}
+#testimonials h2 {
+  font-size: 3rem;
+  margin: 0 200px 0 200px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+@media (max-width: 1000px) {
+  #testimonials h2 {
+    margin: 0;
+  }
+}
+.testimonial-img {
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+/* PRESS */
+#press {
+  background-color: #ef8172;
+  padding-left: 20%;
+  padding-bottom: 5%;
+}
+.press-img {
+  height: 15%;
+  width: 15%;
+  margin-right: 5%;
+}
+.carousel-item {
+  padding: 10%;
+}
+.slide-button {
+  height: 50px;
+  width: 50px;
+}
+/* PRICING */
+#pricing {
+  padding: 8%;
+}
+.h3-pricing {
+  width: 210px;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-left: 2%;
+}
+.h2-price {
+  font-weight: bolder;
+  font-size: 5rem;
+  text-align: center;
+}
+.row {
+  margin-top: 70px;
+}
+.card {
+  width: 100%;
+}
+
+.h2-price1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.card-body {
+  text-align: center;
+}
+
+.last-card {
+  line-height: 1;
+}
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  padding: 10%;
+}
+.h3-cta {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+.button-cta {
+  align-items: center;
+  margin-right: 2%;
+  margin-top: 7%;
+}
+.cta-b1 {
+  margin-left: 35%;
+}
+@media (max-width:1000px) {
+  .cta-b1{
+    margin-left: 10%;
+  }
+}
+/* footer */
+#footer {
+  margin: 10%;
+}
+.img-footer {
+  height: 6%;
+  width: 6%;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.img-footer:hover {
+  background-color: rgb(218, 216, 216);
+}
+.f1 {
+  margin-left: 30%;
+}
+@media (max-width: 1000px) {
+  .img-footer {
+    height: 10%;
+    width: 10%;
+  }
+  .f1{
+    margin-left: 15%;
+  }
+}
